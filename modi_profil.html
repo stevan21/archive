@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profil</title>
+	<link rel="stylesheet" href="modi_profil.css">
+</head>
+<body>
+	<div class="container">
+		<div class="profil-header">
+			<img src="images/moi.jfif" alt="Photo de profil">
+			<h1> stevan omarion </h1>
+			<button class="modifier-profil">Modifier le profil</button>
+		</div>
+		<div class="profil-info">
+			<h2>Informations</h2>
+			<p><strong>Nom :</strong> stevan omarion</p>
+			<p><strong>Adresse :</strong> 123 Rue de l'Exemple, 75001 Paris</p>
+			<p><strong>Biographie :</strong> Je suis un utilisateur de ce site.</p>
+		</div>
+		<div class="modifier-profil-form" style="display: none;">
+			<h2>Modifier le profil</h2>
+			<form>
+				<div class="form-group">
+					<label for="nom">Nom :</label>
+					<input type="text" id="nom" name="nom" value="Nom Prénom">
+				</div>
+				<div class="form-group">
+					<label for="adresse">Adresse :</label>
+					<input type="text" id="adresse" name="adresse" value="123 Rue de l'Exemple, 75001 Paris">
+				</div>
+				<div class="form-group">
+					<label for="biographie">Biographie :</label>
+					<textarea id="biographie" name="biographie">Je suis un utilisateur de ce site.</textarea>
+				</div>
+				<button type="submit">Enregistrer les modifications</button>
+			</form>
+		</div>
+	</div>
+	<script src="modi_profil.js">
+	</script>
+</body>
+</html>

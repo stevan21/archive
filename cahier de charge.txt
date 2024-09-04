@@ -1,0 +1,29 @@
+
+ *employé
+antrer les info afficher dans la base de donne et affiche (ok)
+
+-faire fonctionner la bare de recherche
+-ajouter un système de trie
+-creation d'un profil interagir avec son profil
+
+
+
+
+*application
+-faire un navbar
+-des annimations
+-
+
+
+
+
+
+
+ *administrateur
+-tableau de bord pour voir 
+-le nombre d'utilisateur
+-le nombre d'archive
+-pouvoir suprimer les utilisateurs les archives 
+-pouvoir valider les profils 
+-pouvoir modifier les archives 
+-sytème de messagerie 

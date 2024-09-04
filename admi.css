@@ -1,0 +1,50 @@
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+	color: #fff;
+	padding: 0 20px;
+}
+
+.container {
+	margin-top: 60px;
+	padding: 20px;
+}
+
+.dashboard {
+	background-color: #f0f0f0;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.users-table, .archives-table {
+	background-color: #f0f0f0;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #333;
+	color: #fff;
+}
